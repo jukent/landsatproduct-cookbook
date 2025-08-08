@@ -23,9 +23,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import Normalize
 from mpl_toolkits.mplot3d import Axes3D
-from skimage import exposure
-from skimage.io import imsave, imread
-from osgeo import ogr
+# from skimage import exposure
+# from skimage.io import imsave, imread
+# from osgeo import ogr
 import pystac_client
 from pyproj import Transformer
 from datetime import date, timedelta, datetime
@@ -40,7 +40,6 @@ import numpy as np
 from numpy.random import default_rng
 import intake
 from pyproj import Proj, transform
-from osgeo import gdal
 from sklearn.neighbors import BallTree
 import earthaccess
 import gzip
@@ -64,7 +63,7 @@ from rasterio.warp import reproject
 from rasterio.warp import Resampling as resample
 import cartopy.crs as ccrs
 import cartopy
-from pykrige.ok import OrdinaryKriging
+#from pykrige.ok import OrdinaryKriging
 from sklearn.linear_model import LinearRegression, RANSACRegressor
 from scipy.odr import Model, RealData, ODR
 import scipy.odr as odr
