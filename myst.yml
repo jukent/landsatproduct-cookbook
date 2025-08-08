@@ -20,7 +20,7 @@ project:
         - file: notebooks/how-to-cite.md
     - file: notebooks/preprocessing.ipynb
     - file: notebooks/calibration.ipynb
-    - file: notebooks/validation.ipynb
+    - file: notebooks/validation_step1.ipynb
     - file: notebooks/validation_p2.ipynb
   jupyter:
       binder:
