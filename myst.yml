@@ -3,7 +3,7 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: From Raw Pixels to Products: Building A Landsat Sea Surface Temperature Product
+  title: Raw Pixels to Products
   github: https://github.com/projectpythia/landsatproduct-cookbook
   license: Apache-2.0
   authors:
