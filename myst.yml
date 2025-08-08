@@ -19,7 +19,7 @@ project:
       children:
         - file: notebooks/how-to-cite.md
     - title: Calibration
-        - file: notebooks/calibration_note.ipynb
+    - file: notebooks/calibration_note.ipynb
     - file: notebooks/validation.ipynb
   jupyter:
       binder:
