@@ -18,7 +18,6 @@ project:
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-      children:
         - file: notebooks/notebook-template.ipynb
     - title: Calibration
       children:
