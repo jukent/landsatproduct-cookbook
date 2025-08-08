@@ -26,7 +26,7 @@ project:
         - file: notebooks/calibration_note.ipynb
     - title: Validation
       children:
-        - file: notebooks/validation.ipynb
+    - file: notebooks/validation.ipynb
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
