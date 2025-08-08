@@ -18,8 +18,10 @@ project:
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - file: notebooks/calibration_note.ipynb
+    - file: notebooks/preprocessing.ipynb
+    - file: notebooks/calibration.ipynb
     - file: notebooks/validation.ipynb
+    - file: notebooks/validation_p2.ipynb
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
