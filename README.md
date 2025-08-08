@@ -40,11 +40,11 @@ Teaches how to most effectively find and access your datasets from a local lapto
 
 Learn about the different steps involved in data preprocessing as the data is prepared to be used in conjunction with other datasets and eventually corrected and applied within a retrieval.
 
-### Section 5 Calbration
+### Section 5 Calibration
 
 Learn why we would want to calibrate our new dataset and how to do so.
 
-### Section 2 Data Preprocessing
+### Section 6 Validation
 
 Learn about what data to use for validation, why we want to validate, and potential models we can use for validation.
 
