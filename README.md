@@ -6,11 +6,9 @@
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-_See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
-
 Where do you start if the data product you need doesn’t exist yet? Designing a scientific algorithm is already a challenge — making it automated, open, reusable, and cloud-ready is even harder. This project creates a cookbook that guides users through building a data product algorithm using best-in-class open methods, with Landsat sea surface temperature (SST) as the case study. It demystifies complex steps like thermal infrared atmospheric correction and avoids dependence on proprietary radiative transfer models. 
 
-This Project Pythia Cookbook covers how to create a data product from a raw image to data production. 
+This Project Pythia Cookbook covers how to create a data product from a raw image. 
 
 ## Motivation
 
@@ -39,6 +37,15 @@ Teaches how to most effectively find and access your datasets from a local lapto
 ### Section 2 Data Preprocessing
 
 Learn about the different steps involved in data preprocessing as the data is prepared to be used in conjunction with other datasets and eventually corrected and applied within a retrieval.
+
+### Section 3 Raw Image Correction
+
+We need to determine what corrections to the satellite measurements are required. The corrections can stem from physical processes 
+that would impact amplitude, timing, or wavelength of observations, or instrument-related corrections.
+
+### Section 4 Retrieval
+
+Now that our data is ready for processing together and we know the corrections needed for our data, we need to apply them through a retrieval algorithm.
 
 ### Section 5 Calibration
 
@@ -78,24 +85,22 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/ProjectPythia/landsatproduct-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/landsatproduct-cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+2. Move into the `landsatproduct-cookbook` directory
    ```bash
-   cd cookbook-example
+   cd landsatproduct-cookbook
    ```
-1. Create and activate your conda environment from the `environment.yml` file
+3. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate landsat-product-cookbook-dev
    ```
-1. Move into the `notebooks` directory and start up Jupyterlab
+4. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
    cd notebooks/
    jupyter lab
